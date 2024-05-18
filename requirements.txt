@@ -1,0 +1,10 @@
+### requirements.txt for 3D Portfolio Project
+
+```txt
+three
+@react-three/fiber
+@react-three/drei
+tailwindcss
+vite
+react
+react-dom
