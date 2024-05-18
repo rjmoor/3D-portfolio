@@ -1,8 +1,19 @@
 ### requirements.txt for 3D Portfolio Project
-three
-@react-three/fiber
-@react-three/drei
-tailwindcss
 vite
 react
 react-dom
+
+###  3D Portfolio Project
+three
+@react-three/fiber
+@react-three/drei
+
+### CSS/SASS for 3D Portfolio Project
+tailwindcss
+
+react
+react-dom
+
+typescript 
+@types/react 
+@types/react-dom
