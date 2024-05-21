@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls, Loader } from "@react-three/drei";
 
+
 const Island: React.FC = () => {
 	const gltf = Loader(GLTFLoader, "../assets/Three/Land/valley/scene.gltf");
 	return <primitive object={gltf.scene} />;
