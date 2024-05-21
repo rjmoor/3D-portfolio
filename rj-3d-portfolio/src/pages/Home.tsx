@@ -29,7 +29,7 @@ const generateStars = (numStars: number) => {
 	}
 	return stars;
 };
-
+ 
 const Home: React.FC = () => {
 	const [index, setIndex] = useState(0);
 	const [stars, setStars] = useState<JSX.Element[]>([]);
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
 			<h1 className="text-4xl  mb-6 text-center">{greetings[index].text}</h1>
 			<button
 				className=" bg-blue-500 text-white px-4 py-2 rounded cursor-pointer mt-4 hover:bg-blue-700 transition-all"
-				onClick={() => navigate("/landing")}
+				onClick={() => navigate("/base")}
 			>
 				{buttons[index].text}
 			</button>
